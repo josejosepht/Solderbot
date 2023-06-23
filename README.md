@@ -14,3 +14,5 @@ Here is a demo video showing the execution of the vias_detect.py script using th
 https://github.com/josejosepht/Solderbot/assets/97187460/0f9fa5a4-e1ca-4654-bd8a-2f6181ba726e
 
 This project received collaborative support from Athul Rajeev on the design of the custom solder tool using CAD (https://github.com/athularr)
+
+Link to published paper: https://www.ijsr.net/archive/v10i6/SR21529115123.pdf
