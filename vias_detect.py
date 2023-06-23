@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # Load the template image
-template_path = "C:/Users/josei/OneDrive/Documents/SPB_Data/opencv/ref_image_vias.jpg"
+template_path = "path/to/template_image.png"
 template_image = cv2.imread(template_path, cv2.IMREAD_COLOR)
 
 # Create a Robolink instance
@@ -29,7 +29,7 @@ if station.Valid():
             camera_item = RDK.Cam2D_Add(item_object=RDK.Item("Matrox Iris GTR"),cam_params="FOCAL_LENGTH=5.0 FOV=30.0 SIZE=640x480")
             break
     time.sleep(0.2)
-    filename = "C:/Users/josei/OneDrive/Documents/project/Capstone/robot files/camera1 images from code/image1.png"
+    filename = "path/to/save/workstation_PCB_image.png"
     RDK.Cam2D_Snapshot(file_save_img=filename)
     print("saved image1.png")
     if program_item.Valid():
