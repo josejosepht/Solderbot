@@ -13,6 +13,7 @@ RDK = Robolink()
 # Get the current active RoboDK station/workspace
 station = RDK.ActiveStation()
 
+#The below is a work in progress on placing target positions on PCB
 # Check if the station is valid
 if station.Valid():
     # Get a list of all the items in the station
